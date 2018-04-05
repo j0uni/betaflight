@@ -65,7 +65,7 @@ void unsetArmingDisabled(armingDisableFlags_e flag)
 
 bool isArmingDisabled(void)
 {
-    return armingDisableFlags;
+    return true;
 }
 
 armingDisableFlags_e getArmingDisableFlags(void)
